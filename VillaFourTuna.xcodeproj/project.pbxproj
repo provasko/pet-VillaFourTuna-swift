@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB3057D22689F0A0009896E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3057D12689F0A0009896E5 /* AppDelegate.swift */; };
+		BB3057DB2689F0A3009896E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3057DA2689F0A3009896E5 /* Assets.xcassets */; };
+		BB3057DE2689F0A3009896E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3057DC2689F0A3009896E5 /* LaunchScreen.storyboard */; };
+		BB96A1562689FA8B00C21CF3 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB96A1552689FA8B00C21CF3 /* AppCoordinator.swift */; };
+		BB96A1592689FABA00C21CF3 /* TerritoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB96A1572689FABA00C21CF3 /* TerritoryViewController.swift */; };
+		BB96A15A2689FABA00C21CF3 /* TerritoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB96A1582689FABA00C21CF3 /* TerritoryViewController.xib */; };
+		BB96A15D2689FACC00C21CF3 /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB96A15B2689FACC00C21CF3 /* RoomsViewController.swift */; };
+		BB96A15E2689FACC00C21CF3 /* RoomsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB96A15C2689FACC00C21CF3 /* RoomsViewController.xib */; };
+		BB96A1612689FAE800C21CF3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB96A15F2689FAE800C21CF3 /* HomeViewController.swift */; };
+		BB96A1622689FAE800C21CF3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB96A1602689FAE800C21CF3 /* HomeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB3057CE2689F0A0009896E5 /* VillaFourTuna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VillaFourTuna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3057D12689F0A0009896E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB3057DA2689F0A3009896E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB3057DD2689F0A3009896E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB3057DF2689F0A3009896E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB96A1552689FA8B00C21CF3 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		BB96A1572689FABA00C21CF3 /* TerritoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerritoryViewController.swift; sourceTree = "<group>"; };
+		BB96A1582689FABA00C21CF3 /* TerritoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TerritoryViewController.xib; sourceTree = "<group>"; };
+		BB96A15B2689FACC00C21CF3 /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		BB96A15C2689FACC00C21CF3 /* RoomsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomsViewController.xib; sourceTree = "<group>"; };
+		BB96A15F2689FAE800C21CF3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BB96A1602689FAE800C21CF3 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB3057CB2689F0A0009896E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB3057C52689F0A0009896E5 = {
+			isa = PBXGroup;
+			children = (
+				BB3057D02689F0A0009896E5 /* VillaFourTuna */,
+				BB3057CF2689F0A0009896E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB3057CF2689F0A0009896E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB3057CE2689F0A0009896E5 /* VillaFourTuna.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB3057D02689F0A0009896E5 /* VillaFourTuna */ = {
+			isa = PBXGroup;
+			children = (
+				BB96A1502689F60A00C21CF3 /* Main */,
+				BB3057E52689F1EE009896E5 /* UI */,
+				BB3057DA2689F0A3009896E5 /* Assets.xcassets */,
+				BB3057DC2689F0A3009896E5 /* LaunchScreen.storyboard */,
+				BB3057DF2689F0A3009896E5 /* Info.plist */,
+			);
+			path = VillaFourTuna;
+			sourceTree = "<group>";
+		};
+		BB3057E52689F1EE009896E5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BB96A1542689FA4D00C21CF3 /* Territory */,
+				BB96A1532689FA4200C21CF3 /* Rooms */,
+				BB96A1522689F72F00C21CF3 /* Support Files */,
+				BB96A1512689F70C00C21CF3 /* Home */,
+				BB96A1552689FA8B00C21CF3 /* AppCoordinator.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		BB96A1502689F60A00C21CF3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BB3057D12689F0A0009896E5 /* AppDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BB96A1512689F70C00C21CF3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BB96A15F2689FAE800C21CF3 /* HomeViewController.swift */,
+				BB96A1602689FAE800C21CF3 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BB96A1522689F72F00C21CF3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		BB96A1532689FA4200C21CF3 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				BB96A15B2689FACC00C21CF3 /* RoomsViewController.swift */,
+				BB96A15C2689FACC00C21CF3 /* RoomsViewController.xib */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		BB96A1542689FA4D00C21CF3 /* Territory */ = {
+			isa = PBXGroup;
+			children = (
+				BB96A1572689FABA00C21CF3 /* TerritoryViewController.swift */,
+				BB96A1582689FABA00C21CF3 /* TerritoryViewController.xib */,
+			);
+			path = Territory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB3057CD2689F0A0009896E5 /* VillaFourTuna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB3057E22689F0A3009896E5 /* Build configuration list for PBXNativeTarget "VillaFourTuna" */;
+			buildPhases = (
+				BB3057CA2689F0A0009896E5 /* Sources */,
+				BB3057CB2689F0A0009896E5 /* Frameworks */,
+				BB3057CC2689F0A0009896E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VillaFourTuna;
+			productName = VillaFourTuna;
+			productReference = BB3057CE2689F0A0009896E5 /* VillaFourTuna.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB3057C62689F0A0009896E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BB3057CD2689F0A0009896E5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = BB3057C92689F0A0009896E5 /* Build configuration list for PBXProject "VillaFourTuna" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB3057C52689F0A0009896E5;
+			productRefGroup = BB3057CF2689F0A0009896E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB3057CD2689F0A0009896E5 /* VillaFourTuna */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB3057CC2689F0A0009896E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3057DE2689F0A3009896E5 /* LaunchScreen.storyboard in Resources */,
+				BB96A15A2689FABA00C21CF3 /* TerritoryViewController.xib in Resources */,
+				BB96A1622689FAE800C21CF3 /* HomeViewController.xib in Resources */,
+				BB3057DB2689F0A3009896E5 /* Assets.xcassets in Resources */,
+				BB96A15E2689FACC00C21CF3 /* RoomsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB3057CA2689F0A0009896E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB96A1612689FAE800C21CF3 /* HomeViewController.swift in Sources */,
+				BB96A1562689FA8B00C21CF3 /* AppCoordinator.swift in Sources */,
+				BB3057D22689F0A0009896E5 /* AppDelegate.swift in Sources */,
+				BB96A1592689FABA00C21CF3 /* TerritoryViewController.swift in Sources */,
+				BB96A15D2689FACC00C21CF3 /* RoomsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB3057DC2689F0A3009896E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB3057DD2689F0A3009896E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB3057E02689F0A3009896E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB3057E12689F0A3009896E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB3057E32689F0A3009896E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VillaFourTuna/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.provasko.VillaFourTuna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BB3057E42689F0A3009896E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VillaFourTuna/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.provasko.VillaFourTuna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB3057C92689F0A0009896E5 /* Build configuration list for PBXProject "VillaFourTuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB3057E02689F0A3009896E5 /* Debug */,
+				BB3057E12689F0A3009896E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB3057E22689F0A3009896E5 /* Build configuration list for PBXNativeTarget "VillaFourTuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB3057E32689F0A3009896E5 /* Debug */,
+				BB3057E42689F0A3009896E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB3057C62689F0A0009896E5 /* Project object */;
+}
